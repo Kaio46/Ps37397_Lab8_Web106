@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bai_2.css">
+</head>
+<body>
+
+  <div class="ThongTin">
+    <ul class="menu_1">
+      <li><a href="#">Help</a></li>
+      <li><a href="#"><i class="fa-solid fa-phone"></i> +8423895839</a></li>
+    </ul>
+
+
+    <ul class="menu_2">
+      <li><a href="#">My Account</a></li>
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Create Account</a></li>
+    </ul>
+  </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PinkShop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sản Phẩm</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bộ Sưu Tập
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Jisoo</a></li>
+                <li><a class="dropdown-item" href="#">Jennie</a></li>
+                <li><a class="dropdown-item" href="#">Rosé</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <li><a class="dropdown-item" href="#">Lisa</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  
+
+      
+      <div class="MenuNav">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+      </div>
+
+      <div class="Cart">
+        <p><i class="fa-solid fa-cart-shopping"></i> Shopping Cart</p>
+        <p><a href="">BACK TO SHOPPING</a></p>
+      </div>
+
+      <div class="SanPham">
+        <div class="Ari">
+          <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th colspan="2">DETAILS</th>
+                        <th>QNT</th>
+                        <th>DISCOUNT</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://i.pinimg.com/564x/50/65/9c/50659cb24af2520e19c85d8ccd274742.jpg" alt=""></td>
+                        <td>
+                            <h4>Rosé</h4>
+                            <br>
+                            12 X 1.5L
+                            <br>
+                            <p class="fw-bold">$19.970</p>
+                        </td>
+                        <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+                        <td>
+                          <div class="SoLuong">
+                            <a href="">-</a>
+                            <p>7</p>
+                            <a href="">+</a>
+                          </div>
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td class="fw-bold">
+                            $139.790
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                      <td><img src="https://i.pinimg.com/564x/64/7b/aa/647baa59b31f18e2ca3b9b707278778c.jpg" alt=""></td>
+                      <td>
+                          <h4>Lisa</h4>
+                          <br>
+                          12 X 1.5L
+                          <br>
+                          <p class="fw-bold">$19.970</p>
+                      </td>
+                      <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+                      <td>
+                        <div class="SoLuong">
+                          <a href="">-</a>
+                          <p>7</p>
+                          <a href="">+</a>
+                        </div>
+                      </td>
+                      <td>
+                          0
+                      </td>
+                      <td class="fw-bold">
+                          $139.790
+                      </td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td><img src="https://i.pinimg.com/564x/c8/c2/e8/c8c2e8307d287445dc6a289169aae78a.jpg" alt=""></td>
+                    <td>
+                        <h4>Jennie</h4>
+                        <br>
+                        12 X 1.5L
+                        <br>
+                        <p class="fw-bold">$19.960</p>
+                    </td>
+                    <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+                    <td>
+                      <div class="SoLuong">
+                        <a href="">-</a>
+                        <p>6</p>
+                        <a href="">+</a>
+                      </div>
+                    </td>
+                    <td>
+                        0
+                    </td>
+                    <td class="fw-bold">
+                        $119.760
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                  <td><img src="https://i.pinimg.com/564x/dd/5e/87/dd5e8767dd91a66da796b326550aa098.jpg" alt=""></td>
+                  <td>
+                      <h4>Jisoo</h4>
+                      <br>
+                      12 X 1.5L
+                      <br>
+                      <p class="fw-bold">$19.950</p>
+                  </td>
+                  <td><a href=""><i class="fa-solid fa-trash"></i></a></td>
+                  <td>
+                    <div class="SoLuong">
+                      <a href="">-</a>
+                      <p>5</p>
+                      <a href="">+</a>
+                    </div>
+                  </td>
+                  <td>
+                      0
+                  </td>
+                  <td class="fw-bold">
+                      $99.750
+                  </td>
+              </tr>
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+      </div>
+
+
+
+      
+        <div class="Asi">
+          <a href="">
+            <div class="check">
+              Proceed to Checkout <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+
+          <div class="Price">
+            <ul class="list-group">
+              <li class="list-group-item">Total products<span class="fw-bold">$1200</span></li>
+              <li class="list-group-item">Shipping<span class="fw-bold">Free Ship</span></li>
+              <li class="list-group-item">Total (tax excl.)<span class="fw-bold">$1200</span></li>
+              <li class="list-group-item">Total tax<span class="fw-bold">$0.00</span></li>
+              <li class="list-group-item">Total<span class="fw-bold">$1200</span></li>
+            </ul>
+          </div>
+
+          <div class="Acode">
+            <div class="code">
+              Coupon Code
+            </div>
+
+            <div class="apply">
+              Apply!
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    
+
+  <footer>
+    <div class="mainhelp">
+      <div class="support">
+        <h4>SUPPORT</h4>
+        <hr>
+        Lorem ipsum dolor sit amet consectetur.
+        <h4>+849823489242</h4>
+        <i class="fa-solid fa-envelope"></i> help@gmail.com
+      </div>
+
+
+      <div class="shop">
+        <h4>Shop</h4>
+        <hr>
+        Men's
+        <p></p>
+        Woman's
+        <p></p>
+        Kid's
+        <p></p>
+        Shoes
+        <p></p>
+        Gift Cards
+      </div>
+
+
+      <div class="info">
+        <h4>INFORMATION</h4>
+        <hr>
+        Questions?
+        <p></p>
+        Oder Status
+        <p></p>
+        String Charts
+        <p></p>
+        Return Policy
+        <p></p>
+        Contact Us
+      </div>
+
+
+      <div class="Acc">
+        <h4>MY ACCOUNT</h4>
+        <hr>
+        My Account
+        <p></p>
+        My Address
+        <p></p>
+        Wish List
+        <p></p>
+        Oder List
+        <p></p>
+        Oder Status
+      </div>
+
+
+
+      <div class="Acc">
+        <h4>STAY IN TOUCH</h4>
+        <hr>
+
+        <div class="Email"><a href="">Email</a></div>
+        <div class="Sub"><a href="">SUBSCRIBE</a></div>
+        
+        <div class="Soical">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/1c2be09150.js" crossorigin="anonymous"></script>
+</body>
+</html>

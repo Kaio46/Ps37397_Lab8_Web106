@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ThongTin{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+    background-color: pink;
+}
+
+.ThongTin ul{
+    margin: 0;
+}
+
+.menu_1 {
+    padding: 0;
+}
+
+.menu_1 li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu_1 li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 0px;
+}
+
+.menu_2 li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu_2 li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+}
+
+.MenuNav{
+    background-color: pink;
+    padding: 10px;
+}
+
+.MenuNav a{
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb{
+    margin: 0;
+}
+
+
+.Cart{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+}
+
+.Cart p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.Cart p a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.SanPham{
+    display: flex;
+}
+
+.Ari{
+    flex-basis: 70%;
+}
+
+.SoLuong{
+    display: flex;
+    flex-direction: row;
+}
+
+.SoLuong p{
+    border: 1.5px solid black;
+    border-radius: 100px;
+    padding: 8px;
+    margin: 0;
+}
+
+.SoLuong a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.Ari tbody img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.Ari td a i{
+    color: black;
+    font-size: 35px;
+}
+
+.Ari td a i:hover{
+    color: pink;
+}
+
+.Asi{
+    flex-basis: 30%;
+    background-color: rgb(72, 72, 72);
+    padding: 10px;
+}
+
+.Asi a{
+    text-decoration: none;
+}
+
+.Price{
+    margin-top: 20px;
+}
+
+.Price li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4%;
+    background-color: rgb(47, 148, 47);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+.check:hover{
+    background-color: pink;
+}
+
+.check i{
+    padding-left: 15px;
+}
+
+.Acode{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.code{
+    border: 2px solid gray;
+    padding: 10px 70px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.apply{
+    background-color: rgb(47, 148, 47);
+    padding: 10px 20px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+footer{
+    width: 100%;
+    color: white;
+    background-color: black;
+    clear: both;
+}
+
+.mainhelp{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+}
+
+.Email{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+
+.Email a{
+    text-decoration: none;
+    color: white;
+}
+
+.Sub{
+    margin-top: 15px;
+    background-color: rgb(10, 181, 55);
+    text-align: center;
+    padding: 10px;
+}
+
+.Sub a{
+    text-decoration: none;
+    color: white;
+}
+
+.Soical{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.Soical a{
+    color: white;
+    text-decoration: none;
+}
+
+.Soical a:hover{
+    color: rgb(0, 157, 255);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .ThongTin{
+        display: none;
+    }
+
+    .banner img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .mainhelp{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .shop{
+        margin-top: 40px;
+    }
+
+    .info{
+        margin-top: 40px;
+    }
+
+    .Acc{
+        margin-top: 40px;
+    }
+
+    .SanPham,
+    .Ari{
+        flex-direction: column;
+    }
+
+
+
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    table tr td{
+        flex: 100%;
+    }
+
+    table thead{
+        display: none;
+    }
+}
